@@ -4,14 +4,19 @@ html {
 
 table {
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 th, td {
   border: 1px solid #ccc;
 }
 
+td {
+  height: 8.7em;
+}
+
 .event {
-  border: 2px solid;
+  border: 1px solid;
   border-radius: 8px;
 }
 
